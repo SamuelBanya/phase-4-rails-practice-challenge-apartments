@@ -1,0 +1,26 @@
+* Notes
+I used the following commands to set this lab up:
+#+begin_src bash
+bundle install
+rails s
+#+end_src
+
+I created the related models with this command:
+#+begin_src bash
+samuelbanya@Samuels-MBP ~/hub/Development/code/phase-4/phase-4-rails-practice-challenge-apartments $ rails g model apartment --no-test-frameworkRunning via Spring preloader in process 9313
+      invoke  active_record
+      create    db/migrate/20221101002112_create_apartments.rb
+      create    app/models/apartment.rb
+samuelbanya@Samuels-MBP ~/hub/Development/code/phase-4/phase-4-rails-practice-challenge-apartments $ rails g model tenant --no-test-framework
+Running via Spring preloader in process 9325
+      invoke  active_record
+      create    db/migrate/20221101002117_create_tenants.rb
+      create    app/models/tenant.rb
+samuelbanya@Samuels-MBP ~/hub/Development/code/phase-4/phase-4-rails-practice-challenge-apartments $ rails g model lease --no-test-framework
+Running via Spring preloader in process 9336
+      invoke  active_record
+      create    db/migrate/20221101002122_create_leases.rb
+      create    app/models/lease.rb
+#+end_src
+
+<2022-10-31 Mon 19:21>: No tests, no help --> will save this for later then.
